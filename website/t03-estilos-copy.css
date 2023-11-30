@@ -1,0 +1,123 @@
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
+
+  .header a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #aa2f2f;
+    font-family: 'Quicksand', sans-serif; 
+  }
+
+  .header a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.header a.active {
+  background-color:#802323;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+    .header-right {
+    float: none;
+}
+}
+
+body{
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  font-size: 15pt;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#zona-menú{
+  width: 100%;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  text-align: left;
+  font-size: 15pt;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#zona-encabezado{
+  width: 100%;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+} 
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 45pt;
+  color:black;
+}
+
+.texto-encabezado{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15pt;
+  color: black;
+  text-align: center;
+}
+
+#zona-imagenes{
+  width: 100%;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  text-align: center;
+}
+
+img{
+  width: 50%;
+  align-items: center;
+}
+
+#zona-cuerpo{
+  width: 100%;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.texto-cuerpo{
+  font-family: 'Montserrat', sans-serif;
+  font: size 13pt;
+  color: black;
+}
+
+#zona-final{
+  width: 100%;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.texto-final{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15pt;
+  font-weight: bold;
+  color: black;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
